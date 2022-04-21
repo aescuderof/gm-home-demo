@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-
 <head>
+	<!-- Document Meta
+    ============================================= -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!--IE Compatibility Meta-->
@@ -11,11 +12,11 @@
 	<link href="assets/images/favicon/favicon.png" rel="icon">
 
 	<!-- Fonts
-	============================================= -->
+    ============================================= -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800' rel='stylesheet' type='text/css'>
 
 	<!-- Stylesheets
-	============================================= -->
+    ============================================= -->
 	<link href="assets/css/external.css" rel="stylesheet">
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
@@ -23,9 +24,10 @@
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
 	<!--[if lt IE 9]>
-	<script src="assets/js/html5shiv.js"></script>
-	<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
 	<title>Appy | Multi-purpose App Html5 Landing</title>
 </head>
 
@@ -34,21 +36,491 @@
 	============================================= -->
 	<div id="wrapper" class="wrapper clearfix">
 		
-		<!-- Hero Section
-		====================================== -->
-		<section id="hero" class="landing-hero bg-overlay bg-overlay-dark">
+		<!-- Header
+        ============================================= -->
+		<header id="navbar-spy" class="header header-1 header-transparent header-bordered header-fixed">
+			<nav id="primary-menu" class="navbar navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="logo" href="index.html">
+							<img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="appy Logo">
+							<img class="logo-light" src="assets/images/logo/logo-light.png" alt="appy Logo">
+						</a>
+					</div>
+					<div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
+						<ul class="nav navbar-nav nav-pos-right navbar-left nav-split">
+							<li class="active"><a data-scroll="scrollTo" href="#slider">Inicio</a>
+							</li>
+							<li><a data-scroll="scrollTo" href="#feature2">Nuestros Servicios</a>
+							</li>
+							<li><a data-scroll="scrollTo" href="#nosotros">Nosotros</a>
+							</li>
+							<li><a data-scroll="scrollTo" href="#reviews">Pacientes</a>
+							</li>
+							<li><a data-scroll="scrollTo" href="#screenshots">Red de Proveedores</a>
+							</li>
+					
+							</li>
+						</ul>
+					</div>
+					<!--/.nav-collapse -->
+				</div>
+			</nav>
+		</header>
+
+		<!-- Slider #1
+		============================================= -->
+		<section id="slider" class="section slider slider-2">
+			<div class="slide--item bg-dark">
+				<div class="bg-ytvideo bg-overlay bg-overlay-dark" data-vid-id="rzsmCIpDpgw"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="slide--logo mt-100 hidden-xs wow fadeInUp" data-wow-duration="1s">
+								<img src="assets/images/logo/logo-light.png" alt="logo hero">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-6 pt-100 wow fadeInUp" data-wow-duration="1s">
+							<div class="slide--headline">
+								<h1>Hospitalización Domiciliaria</h1>
+							</div>
+							<div class="slide--bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						</div>
+							<!--<div class="slide--action cta">
+								<a class="btn-hover" href="#"><img src="assets/images/appstore.png" alt="download appstore"></a>
+								<a class="btn-hover" href="#"><img src="assets/images/playstore.png" alt="download playstore"></a>
+							</div> 
+						</div>
+						<div class="slide--holder">
+							<img class="img-responsive pull-right" src="assets/images/mockup/iphone-2.png" alt="screens">
+						</div>-->
+					</div>
+					<!-- .row end -->
+				</div>
+				<!-- .container end -->
+			</div>
+			<!-- .slide-item end -->
+		</section>
+		<!-- #slider end -->
+		
+		<div class="clearfix pt-100 bg-white"></div>
+		
+		<!-- Feature #2
+		============================================= -->
+		<section id="feature2" class="section feature feature-2 text-center bg-white">
+			<div class="container">
+				<div class="row clearfix">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+						<div class="heading heading-1 mb-80 text--center wow fadeInUp" data-wow-duration="1s">
+							<h2 class="heading--title">Nuestros servicios</h2>
+							<p class="heading--desc"></p>
+						</div>
+					</div>
+					<!-- .col-md-6 end -->
+				</div>
+				<!-- .row end -->
+				<div class="row mb-60">
+					<!-- Panel #1 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								<i class="lnr lnr-home"></i>
+							</div>
+							<div class="feature--content">
+								<h3>Hospitalización domiciliaria</h3>
+								<p>Appy impresses you with fully responsiveness and highly customization. We did it in combination of very clean and flexible design.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+
+					<!-- Panel #2 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								<i class="lnr lnr-star"></i>
+							</div>
+							<div class="feature--content">
+								<h3>Manejo de curaciones avanzadas</h3>
+								<p>Appy impresses you with fully responsiveness and highly customization. We did it in combination of very clean and flexible design.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+
+					<!-- Panel #3 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								<i class="lnr lnr-drop"></i>
+							</div>
+							<div class="feature--content">
+								<h3>Administración de tratamiento endovenoso</h3>
+								<p>Appy impresses you with fully responsiveness and highly customization. We did it in combination of very clean and flexible design.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+				</div>
+				<!-- .row end -->
+				<div class="row">
+					<!-- Panel #4 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								<i class="lnr lnr-clock"></i>
+							</div>
+							<div class="feature--content">
+								<h3>Traslado ambulancia programado</h3>
+								<p>Appy impresses you with fully responsiveness and highly customization. We did it in combination of very clean and flexible design.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+
+					<!-- Panel #5 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								<i class="lnr lnr-list"></i>
+							</div>
+							<div class="feature--content">
+								<h3>Exámenes de laboratorio.</h3>
+								<p>Appy impresses you with fully responsiveness and highly customization. We did it in combination of very clean and flexible design.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+
+					<!-- Panel #6 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								<i class="lnr lnr-heart"></i>
+							</div>
+							<div class="feature--content">
+								<h3>Nutrición clínica (parenteral y enteral).</h3>
+								<p>Appy impresses you with fully responsiveness and highly customization. We did it in combination of very clean and flexible design.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+				</div>
+				<!-- .row end -->
+			</div>
+			<!-- .container end -->
+		</section>
+		<!-- #feature2 end -->
+
+		<!-- Feature #3
+		============================================= -->
+		<section id="nosotros" class="section feature feature-left feature-left-circle nosotros">
+			<div class="container">
+				<div class="row clearfix">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+						<div class="heading heading-1 mb-60 text--center wow fadeInUp" data-wow-duration="1s">
+							<h2 class="heading--title">Nosotros</h2>
+							<p class="heading--desc">GM Home <strong>es parte de Grupo Medical</strong> y desarrollamos proyectos que contribuyan a mejorar la salud de las personas y la productividad de las instituciones. </p>
+
+<p>Somos un grupo de empresas con más de 15 años de experiencia en gestión de Recursos Humanos, especializados en el área de la Salud y orientados a entregar soluciones de apoyo clínico y administrativo, Gestión Hospitalaria, Capacitación y Hospitalización Domiciliaria.</p>
+
+<p><strong>Nuestra misión </strong>es aportar a una mejor salud a las personas. Esta es nuestra misión y nuestra pasión. Esto nos mueve cada día.
+<h2 class="heading--title">Nuestros valores</h2>
+</p>
+						</div>
+					</div>
+					<!-- .col-md-6 end -->
+				</div>
+				<!-- .row end -->
+				<!--<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="center-block text-center mb-100 wow fadeInUp" data-wow-duration="1s">
+							<img src="assets/images/mockup/iphone.png" alt="screenshots">
+						</div>
+					</div>
+				</div>-->
+				<!-- .row end -->
+				<div class="row">
+
+					<!-- Panel #1 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								1
+							</div>
+							<div class="feature--content">
+								<h3>Cercanía</h3>
+								<p>Nuestra filosofía de trabajo está arraigada en la calidez de nuestro quehacer frente a clientes, proveedores y colaboradores.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+
+					<!-- Panel #2 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								2
+							</div>
+							<div class="feature--content">
+								<h3>Compromiso</h3>
+								<p>Cumplimos fiel y oportunamente todos los acuerdos que asumimos con nuestros clientes, proveedores y colaboradores.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+
+					<!-- Panel #3 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								3
+							</div>
+							<div class="feature--content">
+								<h3>Responsabilildad</h3>
+								<p>Procedemos siempre acorde a los valores, principios, misión y objetivos de la compañía.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+				</div>
+				<!-- .row end -->
+				<!-- .row end -->
+				<div class="row">
+					<!-- Panel #1 -->
+					<br>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								4
+							</div>
+							<div class="feature--content">
+								<h3>Respeto</h3>
+								<p>Aceptamos y valoramos la individualidad, dignidad, igualdad de oportunidades, méritos y derechos de todas las personas.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+
+					<!-- Panel #2 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								5
+							</div>
+							<div class="feature--content">
+								<h3>Adaptabilidad</h3>
+								<p>Actuamos con flexibilidad frente a los cambios y oportunidades que se nos presentan.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+
+					<!-- Panel #3 -->
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="feature--icon">
+								6
+							</div>
+							<div class="feature--content">
+								<h3>Transparencia</h3>
+								<p>Actuamos siempre con probidad, franqueza, coherencia y veracidad en todo lo que hacemos.</p>
+							</div>
+						</div>
+						<!-- .feature-panel end -->
+					</div>
+					<!-- .col-md-4 end -->
+				</div>
+				<!-- .row end -->
+			</div>
+			<!-- .container end -->
+		</section>
+		<!-- #feature3 end -->
+
+		<!-- reviews
+        ============================================= -->
+		<section id="reviews" class="section reviews bg-white">
+			<div class="container">
+				<div class="row clearfix">
+					<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+						<div class="heading heading-1 mb-60 text--center wow fadeInUp" data-wow-duration="1s">
+							<h2 class="heading--title">Pacientes</h2>
+							<!--<p class="heading--desc">we shows only the best websites, portfolios ans landing pages built completely with passion, simplicity & creativity !</p>-->
+						</div>
+					</div>
+					<!-- .col-md-6 end -->
+				</div>
+				<!-- .row end -->
+				<div class="row">
+					<!--  Testimonial #1  -->
+					<div class="col-xs-12 col-sm-3 col-md-3">
+						<div class="testimonial-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="testimonial-body">
+								<div class="testimonial--body">
+									<p><strong>Pacientes Ambulatorios: </strong>
+										<br>
+									Requieren administración de tratamiento endovenoso (antibiótico, analgesia, entro otros), manejo de nutrición clínica (enteral y parental) o manejo de curaciones básicas y avanzadas.</p>
+								</div>
+							
+							</div>
+						</div>
+					</div>
+					<!--  Testimonial #2  -->
+					<div class="col-xs-12 col-sm-3 col-md-3">
+						<div class="testimonial-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="testimonial-body">
+								<div class="testimonial--body">
+									<p><strong>Pacientes Crónicos Baja Complejidad:</strong>
+									<br>
+									 Pacientes con dependencia parcial – moderada. Pueden o no requerir dispositivos invasivos básicos.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--  Testimonial #3  -->
+					<div class="col-xs-12 col-sm-3 col-md-3">
+						<div class="testimonial-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="testimonial-body">
+								<div class="testimonial--body">
+									<p><strong>Pacientes Crónicos Mediana Complejidad: </strong><br>Pacientes con dependencia moderada o total que requieran dispositivos invasivos complejos. <br> </p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+
+					<!--  Testimonial #4  -->
+					<div class="col-xs-12 col-sm-3 col-md-3">
+						<div class="testimonial-panel wow fadeInUp" data-wow-duration="1s">
+							<div class="testimonial-body">
+								<div class="testimonial--body">
+									<p><strong>Pacientes Crónicos Alta Complejidad: </strong>
+ <br>Pacientes con dependencia total con dispositivos complejos que requieren ventilación mecánica invasiva.
+<br> </p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- .row end -->
+			</div>
+			<!-- .container End -->
+		</section>
+		<!-- #reviews End-->
+
+		
+		<!-- Screenshots
+        ============================================= -->
+		<section id="screenshots" class="section screenshots">
+			<div class="container">
+				<div class="row clearfix">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+						<div class="heading heading-1 mb-60 text--center wow fadeInUp" data-wow-duration="1s">
+							<h2 class="heading--title">Red de proveedores</h2>
+							<p class="heading--desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris ni</p>
+						</div>
+					</div>
+					<!-- .col-md-6 end -->
+				</div>
+				<!-- .row end -->
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="carousel" data-slide="4" data-slide-res="2" data-autoplay="true" data-nav="false" data-dots="false" data-space="30" data-loop="true" data-speed="1000">
+							<!-- screenshot #1 -->
+							<div class="screenshot">
+								<img class="center-block" src="assets/images/screenshots/1.jpg" alt="client">
+							</div>
+
+							<!-- screenshot #2 -->
+							<div class="screenshot">
+								<img class="center-block" src="assets/images/screenshots/2.jpg" alt="client">
+							</div>
+
+							<!-- screenshot #3 -->
+							<div class="screenshot">
+								<img class="center-block" src="assets/images/screenshots/3.jpg" alt="client">
+							</div>
+
+							<!-- screenshot #4 -->
+							<div class="screenshot">
+								<img class="center-block" src="assets/images/screenshots/4.jpg" alt="client">
+							</div>
+
+							<!-- screenshot #5 -->
+							<div class="screenshot">
+								<img class="center-block" src="assets/images/screenshots/3.jpg" alt="clclientient">
+							</div>
+
+							<!-- screenshot #6 -->
+							<div class="screenshot">
+								<img class="center-block" src="assets/images/screenshots/2.jpg" alt="screenshot">
+							</div>
+						</div>
+					</div>
+					<!-- .col-md-12 end -->
+				</div>
+				<!-- .row end -->
+			</div>
+			<!-- .container End -->
+		</section>
+		<!-- #screenshots End-->
+
+		
+
+	
+
+		<!-- Newsletter #1
+		============================================= -->
+		<section id="newsletter" class="section newsletter text-center bg-overlay bg-overlay-dark">
 			<div class="bg-section">
-				<img src="assets/images/background/bg-1.jpg" alt="Background"/>
+				<img src="assets/images/background/bg-3.jpg" alt="Background"/>
 			</div>
 			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
-						<h1 class="text-white">Build Your app <br>The Fast Way with appy!</h1>
+				<div class="row clearfix">
+					<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+						<div class="heading heading-1 mb-60 text--center wow fadeInUp" data-wow-duration="1s">
+							<h2 class="heading--title text-white">¿Quieres más información?</h2>
+							<p class="heading--desc text-white">Déjanos tu e-mail y nos contactaremos contigo.</p>
+						</div>
 					</div>
-					<!-- .col-md-10 end -->
-					<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 text-center">
-						<p class="text-whit mb-30">app is a creative multi purpose app landing designed with great attention to details, flexibility and performance. </p>
-						<a class="btn btn--primary" href="#">Purchase Now</a>
+					<!-- .col-md-6 end -->
+				</div>
+				<!-- .row end -->
+				<div class="row">
+					<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+						<form class="mb-0 form-action wow fadeInUp" data-wow-duration="1s">
+							<div class="input-group">
+								<input type="email" class="form-control" placeholder="E-mail">
+								<span class="input-group-btn">
+									<input type="submit" class="btn btn--primary" value="Enviar" name="submit">
+								</span>
+							</div>
+							<!-- .input-group end -->
+						</form>
 					</div>
 					<!-- .col-md-12 end -->
 				</div>
@@ -56,303 +528,7 @@
 			</div>
 			<!-- .container end -->
 		</section>
-		<!-- #hero end -->
-
-		<!-- Portfolio Classic 3 Column
-		============================================= -->
-		<section id="portfolio-classic-3col" class="landing-demos portfolio portfolio-classic portfolio-3col" style="padding-bottom:70px;">
-			<div class="container">
-				<div class="row clearfix">
-					<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-						<div class="heading heading-4 mb-60 text--center">
-							<h2 class="heading--title">11+ Beautiful Demos</h2>
-							<div class="divider--line"></div>
-						</div>
-					</div>
-					<!-- .col-md-8 end -->
-				</div>
-				<!-- .row end -->
-				<div class="row">
-					<!-- Portfolio Filter
-					============================================= -->
-					<div class="col-xs-12 col-sm-12  col-md-12 portfolio-filter">
-						<ul class="list-inline text-center">
-							<li>
-								<a class="active-filter" href="#" data-filter="*">All demos</a>
-							</li>
-							<li>
-								<a href="#" data-filter=".filter-lead">lead generation</a>
-							</li>
-							<li>
-								<a href="#" data-filter=".filter-click">click through</a>
-							</li>
-							<li>
-								<a href="#" data-filter=".filter-layouts">layouts</a>
-							</li>
-						</ul>
-					</div>
-					<!-- .Home-filter end -->
-				</div>
-				<div id="portfolio-all" class="row">
-					<!-- Home #1 -->
-					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item filter-lead">
-						<a href="landing-01-image-bg.html">
-							<div class="portfolio-item-box">
-								<div class="portfolio-img">
-									<img src="assets/images/landing/demos/1.jpg" alt="Home Page">
-								</div>
-								<!-- .Portfolio-img end -->
-								<div class="portfolio-bio">
-									<div class="portfolio-meta">
-										<div class="portfolio-title">
-											<h4>landing 01 image background</h4>
-										</div>
-									</div>
-									<!-- .Portfolio-meta end -->
-								</div>
-								<!-- .portfolio-bio end -->
-							</div>
-							<!-- .portfolio-item end -->
-						</a>
-					</div>
-					<!-- .portfolio-item  end -->
-
-					<!-- Home #2 -->
-					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item filter-lead">
-						<a href="landing-01-transparent-bg.html">
-							<div class="portfolio-item-box">
-								<div class="portfolio-img">
-									<img src="assets/images/landing/demos/2.jpg" alt="Home Page">
-								</div>
-								<!-- .Portfolio-img end -->
-								<div class="portfolio-bio">
-									<div class="portfolio-meta">
-										<div class="portfolio-title">
-											<h4>landing 01 transparent background</h4>
-										</div>
-									</div>
-									<!-- .Portfolio-meta end -->
-								</div>
-								<!-- .portfolio-bio end -->
-							</div>
-							<!-- .portfolio-item end -->
-						</a>
-					</div>
-					<!-- .portfolio-item  end -->
-
-					<!-- Home #3 -->
-					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item filter-lead">
-						<a href="landing-01-color-bg.html">
-							<div class="portfolio-item-box">
-								<div class="portfolio-img">
-									<img src="assets/images/landing/demos/3.jpg" alt="Home Page">
-								</div>
-								<!-- .Portfolio-img end -->
-								<div class="portfolio-bio">
-									<div class="portfolio-meta">
-										<div class="portfolio-title">
-											<h4>landing 01 color background</h4>
-										</div>
-									</div>
-									<!-- .Portfolio-meta end -->
-								</div>
-								<!-- .portfolio-bio end -->
-							</div>
-							<!-- .portfolio-item end -->
-						</a>
-					</div>
-					<!-- .portfolio-item  end -->
-
-					<!-- Home #3 -->
-					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item filter-lead">
-						<a href="landing-01-video-bg.html">
-							<div class="portfolio-item-box">
-								<div class="portfolio-img">
-									<img src="assets/images/landing/demos/10.jpg" alt="Home Page">
-								</div>
-								<!-- .Portfolio-img end -->
-								<div class="portfolio-bio">
-									<div class="portfolio-meta">
-										<div class="portfolio-title">
-											<h4>landing 01 video background</h4>
-										</div>
-									</div>
-									<!-- .Portfolio-meta end -->
-								</div>
-								<!-- .portfolio-bio end -->
-							</div>
-							<!-- .portfolio-item end -->
-						</a>
-					</div>
-					<!-- .portfolio-item  end -->
-
-					<!-- Home #4 -->
-					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item filter-click">
-						<a href="landing-02-image-bg.html">
-							<div class="portfolio-item-box">
-								<div class="portfolio-img">
-									<img src="assets/images/landing/demos/4.jpg" alt="Home Page">
-								</div>
-								<!-- .Portfolio-img end -->
-								<div class="portfolio-bio">
-									<div class="portfolio-meta">
-										<div class="portfolio-title">
-											<h4>landing 02 image background</h4>
-										</div>
-									</div>
-									<!-- .Portfolio-meta end -->
-								</div>
-								<!-- .portfolio-bio end -->
-							</div>
-							<!-- .portfolio-item end -->
-						</a>
-					</div>
-					<!-- .portfolio-item  end -->
-
-					<!-- Home #5 -->
-					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item filter-click">
-						<a href="landing-02-transparent-bg.html">
-							<div class="portfolio-item-box">
-								<div class="portfolio-img">
-									<img src="assets/images/landing/demos/5.jpg" alt="Home Page">
-								</div>
-								<!-- .Portfolio-img end -->
-								<div class="portfolio-bio">
-									<div class="portfolio-meta">
-										<div class="portfolio-title">
-											<h4>landing 02 transparent background</h4>
-										</div>
-									</div>
-									<!-- .Portfolio-meta end -->
-								</div>
-								<!-- .portfolio-bio end -->
-							</div>
-							<!-- .portfolio-item-box end -->
-						</a>
-					</div>
-					<!-- .portfolio-item  end -->
-
-					<!-- Home #6 -->
-					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item filter-click">
-						<a href="landing-02-color-bg.html">
-							<div class="portfolio-item-box">
-								<div class="portfolio-img">
-									<img src="assets/images/landing/demos/6.jpg" alt="Home Page">
-								</div>
-								<!-- .Portfolio-img end -->
-								<div class="portfolio-bio">
-									<div class="portfolio-meta">
-										<div class="portfolio-title">
-											<h4>landing 02 color background</h4>
-										</div>
-									</div>
-									<!-- .Portfolio-meta end -->
-								</div>
-								<!-- .portfolio-bio end -->
-							</div>
-							<!-- .portfolio-item-box end -->
-						</a>
-					</div>
-					<!-- .portfolio-item  end -->
-
-					<!-- Home #6 -->
-					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item filter-click">
-						<a href="landing-02-video-bg.html">
-							<div class="portfolio-item-box">
-								<div class="portfolio-img">
-									<img src="assets/images/landing/demos/11.jpg" alt="Home Page">
-								</div>
-								<!-- .Portfolio-img end -->
-								<div class="portfolio-bio">
-									<div class="portfolio-meta">
-										<div class="portfolio-title">
-											<h4>landing 02 video background</h4>
-										</div>
-									</div>
-									<!-- .Portfolio-meta end -->
-								</div>
-								<!-- .portfolio-bio end -->
-							</div>
-							<!-- .portfolio-item-box end -->
-						</a>
-					</div>
-					<!-- .portfolio-item  end -->
-
-					<!-- Home #7 -->
-					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item filter-layouts">
-						<a href="landing-dark.html">
-							<div class="portfolio-item-box">
-								<div class="portfolio-img">
-									<img src="assets/images/landing/demos/7.jpg" alt="Home Page">
-								</div>
-								<!-- .Portfolio-img end -->
-								<div class="portfolio-bio">
-									<div class="portfolio-meta">
-										<div class="portfolio-title">
-											<h4>landing dark layout</h4>
-										</div>
-									</div>
-									<!-- .Portfolio-meta end -->
-								</div>
-								<!-- .portfolio-bio end -->
-							</div>
-							<!-- .portfolio-item-box end -->
-						</a>
-					</div>
-					<!-- .portfolio-item  end -->
-
-					<!-- Home #8 -->
-					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item filter-layouts">
-						<a href="landing-bordered.html">
-							<div class="portfolio-item-box">
-								<div class="portfolio-img">
-									<img src="assets/images/landing/demos/8.jpg" alt="Home Page">
-								</div>
-								<!-- .Portfolio-img end -->
-								<div class="portfolio-bio">
-									<div class="portfolio-meta">
-										<div class="portfolio-title">
-											<h4>landing bordered layout</h4>
-										</div>
-									</div>
-									<!-- .Portfolio-meta end -->
-								</div>
-								<!-- .portfolio-bio end -->
-							</div>
-							<!-- .portfolio-item-box end -->
-						</a>
-					</div>
-					<!-- .portfolio-item  end -->
-
-					<!-- Home #9 -->
-					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item filter-layouts">
-						<a href="landing-boxed.html">
-							<div class="portfolio-item-box">
-								<div class="portfolio-img">
-									<img src="assets/images/landing/demos/9.jpg" alt="Home Page">
-								</div>
-								<!-- .Portfolio-img end -->
-								<div class="portfolio-bio">
-									<div class="portfolio-meta">
-										<div class="portfolio-title">
-											<h4>landing boxed layout</h4>
-										</div>
-									</div>
-									<!-- .Portfolio-meta end -->
-								</div>
-								<!-- .portfolio-bio end -->
-							</div>
-							<!-- .portfolio-item-box end -->
-						</a>
-					</div>
-					<!-- .portfolio-item  end -->
-
-				</div>
-				<!-- .row end -->
-			</div>
-			<!-- .container end -->
-		</section>
-		<!-- #portfolio-classic-3col end -->
+		<!-- #newsletter end -->
 
 		<!-- Footer #5
 		============================================= -->
@@ -366,7 +542,6 @@
 							<span>&copy; 2017 Appy, crafted With <i class="fa fa-heart"></i> by</span> <a href="http://themeforest.net/user/zytheme/portfolio?ref=zytheme">zytheme.com</a>
 						</div>
 					</div>
-
 				</div>
 			</div>
 			<!-- .container end -->
